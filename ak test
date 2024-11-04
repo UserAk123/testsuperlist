@@ -1,0 +1,7 @@
+echo "# testsuperlist" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/UserAk123/testsuperlist.git
+git push -u origin main
